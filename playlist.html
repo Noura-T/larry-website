@@ -1,0 +1,156 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Songs for Larry 🎧</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <main class="playlist-page">
+
+        <div class="playlist-content">
+
+            <p class="small-text">a little playlist</p>
+
+            <h1>Songs for Larry</h1>
+
+            <p class="playlist-intro">
+                songs that remind me of you
+            </p>
+
+
+            <!-- Now Playing -->
+
+            <div class="now-playing" id="nowPlaying">
+                <span>♡</span>
+                <p>pick a song...</p>
+            </div>
+
+
+            <!-- Spotify Player -->
+
+            <div class="spotify-players">
+                <div id="spotify-embed" class="spotify-player"></div>
+            </div>
+
+
+            <!-- Songs -->
+
+            <div class="playlist">
+
+                <div class="song"
+                     data-spotify="https://open.spotify.com/track/2Jg4ndG629t0z3Ah7yej3G">
+
+                    <span class="song-number">01</span>
+
+                    <div class="song-info">
+                        <h2>You and Only You</h2>
+                        <p>The Softies</p>
+                    </div>
+
+                    <span class="song-symbol">♡</span>
+
+                </div>
+
+
+                <div class="song"
+                     data-spotify="https://open.spotify.com/track/1TdI0wGPuIFGotwAvecb5Z">
+
+                    <span class="song-number">02</span>
+
+                    <div class="song-info">
+                        <h2>All For You</h2>
+                        <p>Damien Jurado</p>
+                    </div>
+
+                    <span class="song-symbol">♡</span>
+
+                </div>
+
+
+                <div class="song"
+                     data-spotify="https://open.spotify.com/track/15RkFbludsMM5yPC8h15gw">
+
+                    <span class="song-number">03</span>
+
+                    <div class="song-info">
+                        <h2>عندي ثقة فيك</h2>
+                        <p>فيروز</p>
+                    </div>
+
+                    <span class="song-symbol">♡</span>
+
+                </div>
+
+
+                <div class="song"
+                     data-spotify="https://open.spotify.com/track/58y6fLuPSyI1MQlojS3MFe">
+
+                    <span class="song-number">04</span>
+
+                    <div class="song-info">
+                        <h2>ناديني</h2>
+                        <p>أودينس</p>
+                    </div>
+
+                    <span class="song-symbol">♡</span>
+
+                </div>
+
+
+                <div class="song"
+                     data-spotify="https://open.spotify.com/track/6ihJQUpNPvjAa07pqOyeW5">
+
+                    <span class="song-number">05</span>
+
+                    <div class="song-info">
+                        <h2>Right Here in My Arms</h2>
+                        <p>HIM</p>
+                    </div>
+
+                    <span class="song-symbol">♡</span>
+
+                </div>
+
+
+                <div class="song"
+                     data-spotify="https://open.spotify.com/track/2KhrPRV0V1FS2l4eQMJUWt">
+
+                    <span class="song-number">06</span>
+
+                    <div class="song-info">
+                        <h2>Sweet</h2>
+                        <p>Cigarettes After Sex</p>
+                    </div>
+
+                    <span class="song-symbol">♡</span>
+
+                </div>
+
+            </div>
+
+
+            <!-- Next -->
+
+            <a href="one-year.html" class="next-button">
+                keep going ♡
+            </a>
+
+        </div>
+
+    </main>
+
+
+    <!-- Spotify iFrame API -->
+
+    <script src="https://open.spotify.com/embed/iframe-api/v1" async></script>
+
+    <script src="playlist.js"></script>
+
+</body>
+</html>

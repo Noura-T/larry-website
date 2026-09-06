@@ -1,0 +1,103 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Larry's World 🦊</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <main class="world">
+
+        <div class="world-content">
+
+            <p class="small-text">welcome to</p>
+
+            <h1>Larry's World</h1>
+
+            <p class="world-intro">
+                a tiny world made of little things
+            </p>
+
+            <div class="world-map">
+
+                <!-- The illustrated world -->
+                <img src="wide_whimsical_colorful_cute_3d_illustrated_st.png"
+                     class="map-image"
+                     alt="Larry's World">
+
+                <!-- Interactive locations -->
+
+                <button class="world-item fox"
+                        data-icon="🦊"
+                        data-title="Fox"
+                        data-text="A little reminder of one of the things that always makes me think of you.">
+                    <span>🦊</span>
+                    <small>Fox</small>
+                </button>
+
+                <button class="world-item blueberry"
+                        data-icon="🫐"
+                        data-title="Blueberries"
+                        data-text="Little blue berries hiding in Larry's favorite tree.">
+                    <span>🫐</span>
+                    <small>Blueberries</small>
+                </button>
+
+                <button class="world-item tree"
+                        data-icon="🌳"
+                        data-title="The tree"
+                        data-text="The big tree that watches over this tiny little world.">
+                    <span>🌳</span>
+                    <small>The tree</small>
+                </button>
+
+                <button class="world-item snoopy"
+                        data-icon="🐶"
+                        data-title="Snoopy"
+                        data-text="A tiny familiar face in the middle of Larry's world.">
+                    <span>🐶</span>
+                    <small>Snoopy</small>
+                </button>
+
+                <button class="world-item campfire"
+                        data-icon="🔥"
+                        data-title="Campfire"
+                        data-text="A warm little place to sit, talk, and stay awhile.">
+                    <span>🔥</span>
+                    <small>Campfire</small>
+                </button>
+
+            </div>
+
+            <div class="memory-card" id="memoryCard">
+
+                <button class="close-card" id="closeCard">×</button>
+
+                <div class="memory-icon" id="memoryIcon">🦊</div>
+
+                <h2 id="memoryTitle">Fox</h2>
+
+                <p id="memoryText">
+                    A little reminder of one of the things
+                    that always makes me think of you.
+                </p>
+
+            </div>
+
+        </div>
+
+        <a href="playlist.html" class="next-button">
+            next ♡
+        </a>
+
+    </main>
+
+    <script src="world.js"></script>
+
+</body>
+</html>
